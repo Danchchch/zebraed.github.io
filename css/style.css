@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Navigation */
+
+  .navlist {
+    list-style-type: none;
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+  
+  li {
+    font-family: "Rubik", "sans-serif";
+    text-decoration: none;
+  }
+
+  .navlistitem {
+    float: left;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+  }
+
+  #logo {
+    font-weight: bolder;
+    font-size: large;
+	  padding-right: 2%;
+}
+
+  /* Navigation end */
+
+  /* Home Page */
+
+  button{
+    display: flex;
+    justify-content: center;
+    color: black;
+    border-radius: 31px;
+    border: none;
+    padding: 0.4%;
+    font-family: "Rubik", "sans-serif";
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  #indexButton {
+    display: block;
+    margin: 0 auto;
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+
+  #bold {
+    font-weight: 900;
+    font-size: 32px;
+  }
+
+  .bgimg {
+    background-image: url("../images/bgimg.jpg");
+     background-size: cover;
+     background-position: center;
+   height: 1000px;
+   width: 100%;
+}
+
+.bgimg3{
+  height: 450px;
+  width: 100%;
+  background-color: #F8E153;
+}
+
+.title{
+	color: white;
+	font-size: 75px;
+}
+
+.row{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 3%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.row2{
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.col1{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	padding-top: 2%;
+}
+
+.activityimage{
+	width: 70%;
+	display: flex;
+	margin: 0 auto;
+}
+
+#padding {
+  padding-top: 105px;
+}
+
+#padding2 {
+  padding-top: 75px;
+}
+
+.homeimg{
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	font-family: "Rubik", "sans-serif";
+	color: black;
+	text-decoration: none;
+}
+
+p {
+	font-family: "Rubik", "sans-serif";
+}
+
+  /* Home Page end */
+
+   /* Abour */
+
+   .aboutimg{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 300px;
+  }
+
+    /* About end */
+
+  /* Activities */
+
+  /* Heading */
+
+  .bgimg2 {
+    background-image: url("../images/bgimg2.png");
+     background-size: cover;
+     background-position: center;
+   height: 2000px;
+   width: 100%;
+}
+
+  h1{
+    font-family: "Rubik", "sans-serif";
+    text-align: center;
+  }
+
+  h3{
+    font-family: "Rubik", "sans-serif";
+    text-align: center;
+  }
+
+  h4{
+    font-family: "Rubik", "sans-serif";
+  }
+  
+  h5{
+    font-family: "Rubik", "sans-serif";
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  
+  .title{
+    color: white;
+    font-size: 75px;
+  }
+  
+  .subtitle{
+    color: white;
+    font-size: 30px;
+    font-weight: medium;
+  }
+  
+  .background-title{
+      padding-top: 400px;
+  }
+  
+  .crosswalk{
+    padding-top: 5%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #start {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background: #7ab742;
+    color: white;
+  }
+
+  #again {
+    position: absolute;
+    margin-top: 445px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background: #FAD505;
+    color: black;
+    margin-left: 16%;
+    display: none;
+  }
+  
+
+  /* Heading end */
+
+  #myActivity {
+    display: none;
+    position: absolute;
+    top: 120%;
+    left: 16%;
+  }
+
+  /* Capcha */
+
+  #capcha1 h6 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 0;
+  }
+
+  #message {
+    padding-bottom: 14px;
+  }
+  
+  #capcha1 h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+  }
+  
+  #capcha1 {
+    border: 5px solid;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    top: 220%;
+    background: white;
+    z-index: 2;
+  }
+  
+  #buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    border-radius: 1px !important;
+  }
+  
+  button {
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: none;
+    background: white;
+  }
+  
+  #submit {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background: #7ab742;
+    color: white;
+  }  
+
+  #exit {
+    position: relative;
+    left: 95% !important;
+    padding: 3% !important;
+    background: url(../images/Asset\ 2.png);
+    background-size: contain;
+    border-radius: 1px !important;
+  }
+
+  #img {
+    position: absolute;
+    width: 7%;
+    margin-top: 7px;
+  }
+
+  #capchaWord {
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    font-variation-settings:
+    "wdth" 100;
+    color: red;
+  }
+
+  #wrongA {
+    background: url(../images/camera.png);
+    background-size: cover;
+    padding-bottom: 58px;
+    padding-right: 70px;
+    border-radius: 1px !important;
+  }
+
+  #wrongB {
+    background: url(../images/car.png);
+    background-size: cover;
+    padding-bottom: 58px;
+    padding-right: 70px;
+    border-radius: 1px !important;
+  }
+
+  #right {
+    background: url(../images/leaf.png);
+    background-size: cover;
+    padding-bottom: 58px;
+    padding-right: 70px;
+    border-radius: 1px !important;
+  }
+
+  #wrongC {
+    background: url(../images/math.png);
+    background-size: cover;
+    padding-bottom: 58px;
+    padding-right: 70px;
+    border-radius: 1px !important;
+  }
+
+  /* Capcha end */
+
+  /* Activities end */
+
+  /* Footer */
+  
+  .footer {
+      background-color: #222; /* Yellow background */
+      padding: 40px 20px;
+      color: #000;
+      display: flex;
+      flex-wrap: wrap;
+      font-family: "Rubik", sans-serif;
+    }
+    
+    .footer-column {
+      flex: 1; /*Let all the flexible items be the same length, regardless of its content:*/
+      min-width: 200px;
+      margin: 10px;
+      font-family: "Rubik", sans-serif;
+    }
+    
+    .footer-column h4 {
+      font-weight: bold;
+      margin-bottom: 15px;
+      font-family: "Rubik", sans-serif;
+     color: #FFFFFF;
+     font-size: 32px;
+    }
+    
+    .footer-column p, .footer-column a {
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-size: 24px;
+      display: block;
+      font-family: "Rubik", sans-serif;
+    }
+    
+    .footer-column a:hover {
+      text-decoration: underline;
+      font-family: "Rubik", sans-serif;
+    }
+    
+    .footer-text{
+     color: white;
+    }
+
+    /* Footer end */
